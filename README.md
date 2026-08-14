@@ -1,16 +1,16 @@
 # Proteomic Divergence Analysis – CCR7⁺ Dendritic Cells
 
-**Manuscript**: Nature Communications (NCOMMS-26-017856)  
-**Revision response to Reviewer #2** (Comment on proteomic divergence analysis)
+**Manuscript**: Nature Communications 
+**Proteomic divergence analysis)
 
-This repository contains the complete, reproducible re-analysis of proteomic divergence between GFP⁺ and GFP⁻ dendritic cells across tumor progression timepoints.
+This repository contains the complete, reproducible analysis of proteomic divergence between GFP⁺ and GFP⁻ dendritic cells across tumor progression timepoints.
 
 ## Key Changes Addressing Reviewer Concerns
 
 - **No significance pre-filtering**: Analysis performed on the full QC-filtered proteome (n = 3404 proteins).
 - **Distribution-level analysis**: Kolmogorov-Smirnov tests on the full distribution of per-protein |\Delta log\u2082| values (instead of a single median after filtering).
-- **Transparent visualization**: Raincloud plots (violin + boxplot + individual protein points).
-- **Complementary signed Log2FC**: Supplementary analyses with signed Log2 fold changes as requested by the reviewer.
+- **visualization**: Raincloud plots (violin + boxplot + individual protein points).
+- **Signed Log2FC**: Analyses with signed Log2 fold changes.
 - **Multiple testing correction**: Benjamini-Hochberg FDR.
 
 ## Repository Structure
@@ -20,7 +20,9 @@ This repository contains the complete, reproducible re-analysis of proteomic div
 │   └── proteomics_divergence_analysis.R   # Complete standalone R script
 ├── docs/
 │   ├── Methods.md                         # Methods section text
+│   ├── Supplementary_Table_Individual_Proetin_Values.xlsx
 │   └── Rebuttal_Reviewer2.md               # Point-by-point response
+
 └── README.md
 ```
 
