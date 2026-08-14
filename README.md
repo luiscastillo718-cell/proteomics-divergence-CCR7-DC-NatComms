@@ -20,9 +20,7 @@ This repository contains the complete, reproducible analysis of proteomic diverg
 │   └── proteomics_divergence_analysis.R   # Complete standalone R script
 ├── docs/
 │   ├── Methods.md                         # Methods section text
-│   ├── Supplementary_Table_Individual_Proetin_Values.xlsx
-│   └── Rebuttal_Reviewer2.md               # Point-by-point response
-
+│   └── Supplementary_Table_Individual_Proetin_Values.xlsx
 └── README.md
 ```
 
